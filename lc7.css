@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 2s;
+    background-color: rgb(220, 214, 250);
+
+}
+
+
+.all{
+display: flex;
+flex-direction: row-reverse;
+justify-content:space-around;
+margin-top: 100px;
+
+}
+
+h1{
+    font-size: 30px;
+}
+
+.left{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px solid rgba(0, 0, 0, 0.349);
+width: 400px;
+padding-right: 100px;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 2px 2px 3px 3px rgb(14, 12, 11), 2px 2px 3px 5px rgb(14, 12, 11);
+}
+
+
+
+.a{   
+    padding: 20px;
+}
+    
+.b{
+    padding: 20px;
+    }
+    
+.c{
+    padding: 20px;
+    color:aqua ;
+    }
+    
+.d{
+    padding: 20px;
+    }
+
+.e{
+        padding: 20px;
+        color:aqua ;
+
+} 
+    
+
+.pic3{
+
+    margin-left: 200px;
+}
+
+.right:hover{transform: scale(.9);
+
+}
+
+
+
+
+input{
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 7px;
+
+} 
+.cde{
+    width: 200px;
+    height: 60px;
+    background-color: rgba(20, 228, 37, 0.637);
+    color: aliceblue;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.d4{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(41, 20, 228, 0.87);
+    color: aliceblue;
+
+}
+
+
+.d:hover,.email:hover,.password:hover,.d4:hover,.cde:hover  {transform: scale(1.2 );}
+
+
+/* .email:hover{transform: scale(1.2) ;}
+.password:hover{transform: scale(1.2 );}
+.d4:hover{transform: scale(1.2 );}
+.cde:hover{transform: scale(1.2 );}
+.d:hover{transform: scale(1.2 );}
+ */
+
+
+
+
+
+
